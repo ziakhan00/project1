@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact as</title>
+        <style>
+            body{
+                background-color: cadetblue;
+            }
+        </style>
+    </head>
+<body>
+   <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need further assistance, please don't hesitate to get in touch with us.</p>
+    
+    <form action="submit_contact_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <input type="submit" value="Submit">
+    </form>
+</section>
+</body>
+</html>
